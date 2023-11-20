@@ -1,0 +1,23 @@
+header {
+  background-color: var(--secondary-color);
+  color: var(--accent-color);
+  display: flex;
+  padding: 0 1em;
+  margin-bottom: 1em;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.router-outlet {
+  min-height: 70vh;
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: var(--accent-color);
+  padding: 0.5em 1em;
+}
+header a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
